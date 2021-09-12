@@ -1,0 +1,24 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "noImplicitAny": true,
+    "removeComments": false,
+    "preserveConstEnums": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "sourceMap": true,
+    "sourceRoot": ".",
+    "outDir": "./dist",
+    "target": "ES2019",
+    "resolveJsonModule": true,
+    "strictNullChecks": true,
+    "rootDir": "./src",
+    "baseUrl": "./src",
+    "types": ["node"],
+    "lib": ["ES2019", "dom"]
+  },
+  "include": ["src/"],
+  "exclude": ["node_modules"]
+}
